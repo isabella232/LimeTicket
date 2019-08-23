@@ -11,7 +11,7 @@ jimport( 'joomla.application.component.view');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'pagination.php');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'multicol.php');
 
-class FssViewAdmin_Support_EMails extends FssViewAdmin_Support
+class LimeticketViewAdmin_Support_EMails extends LimeticketViewAdmin_Support
 {
 	function display($tpl = NULL)
 	{

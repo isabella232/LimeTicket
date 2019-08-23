@@ -12,7 +12,7 @@ defined('_JEXEC') or die;
 
 <?php if (LIMETICKET_Settings::get('bootstrap_template') != LIMETICKET_Helper::GetTemplate()): ?>
 	<div class="alert alert-danger">
-	<h4><?php echo JText::_('FREESTYLE_SUPPORT_HAS_NOT_BEEN_CONFIGURED_FOR_YOUR_CURRENT_TEMPLATE'); ?></h4>
+	<h4><?php echo JText::_('LIMETICKET_HAS_NOT_BEEN_CONFIGURED_FOR_YOUR_CURRENT_TEMPLATE'); ?></h4>
 	<?php echo JText::_('WRONG_TEMPLATE_MESSAGE'); ?>
 
 		<p class="pull-right"><a class="btn limeticketTip" title="<?php echo JText::_('WARNING_ONLY_DO_THIS_IF_THIS_MESSAGE_WONT_HIDE_BY'); ?>" href="<?php echo JRoute::_('index.php?option=com_limeticket&view=limetickets&hide_template_warning=1'); ?>"><?php echo JText::_('HIDE_MESSAGE'); ?></a></p>
@@ -22,7 +22,7 @@ defined('_JEXEC') or die;
 
 <?php if( !(version_compare(PHP_VERSION, '5.3.0') >= 0) ): ?>
 	<div class="alert alert-danger">
-	<h4><?php echo JText::_('FREESTYLE_SUPPORT_REQUIRES_PHP_5_3_OR_ABOVE_TO_FUNCTION'); ?></h4>
+	<h4><?php echo JText::_('LIMETICKET_REQUIRES_PHP_5_3_OR_ABOVE_TO_FUNCTION'); ?></h4>
 		<p><?php echo JText::_('YOU_ARE_CURRENTLY_RUNNING'); ?> <strong><?php echo PHP_VERSION; ?></strong></p>
 		<p><?php echo JText::_('PLEASE_UPDATE_YOUR_PHP_VERSION_OR_THIS_COMPONENT_WILL_DISPLAY_NUMEROUS_ERRORS_'); ?></p>
 	</div>
@@ -241,14 +241,14 @@ echo JHTML::_( 'fsjtabs.end' );
 
 <script>
 jQuery(document).ready(function () {
-	jQuery('#frame_version').attr('src',"http://freestyle-joomla.com/latestversion-limeticket?ver=<?php echo LIMETICKETAdminHelper::GetVersion();?>");
+	jQuery('#frame_version').attr('src',"http://limesurvey.org/latestversion-limeticket?ver=<?php echo LIMETICKETAdminHelper::GetVersion();?>");
 	jQuery('#frame_version').load(function() 
     {
         jQuery('#please_wait').remove();
     });
 
-	jQuery('#frame_announce').attr('src',"http://freestyle-joomla.com/news?tmpl=component");
-	jQuery('#frame_help').attr('src',"http://freestyle-joomla.com/index.php?option=com_content&view=article&id=81&tmpl=component");
+	jQuery('#frame_announce').attr('src',"http://limesurvey.org/news?tmpl=component");
+	jQuery('#frame_help').attr('src',"http://limesurvey.org/index.php?option=com_content&view=article&id=81&tmpl=component");
 });
 </script>
 

@@ -28,7 +28,7 @@ Polo
 C3
 C4
 C1</pre>
-			<!--<li>For documentation see <a href='http://freestyle-joomla.com/help/other/knowledge-base?prodid=1&kbartid=97' target='_blank'>here</a></li>-->
+			<!--<li>For documentation see <a href='http://limesurvey.org/help/other/knowledge-base?prodid=1&kbartid=97' target='_blank'>here</a></li>-->
 		</span>
 	</div>
 </div>

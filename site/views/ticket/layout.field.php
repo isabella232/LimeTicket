@@ -10,7 +10,7 @@ defined('_JEXEC') or die;
 jimport( 'joomla.application.component.view');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'support_ticket.php');
 
-class FssViewTicket_Field extends FssViewTicket
+class LimeticketViewTicket_Field extends LimeticketViewTicket
 {
 	function display($tpl = NULL)
 	{

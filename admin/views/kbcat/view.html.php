@@ -10,7 +10,7 @@ defined('_JEXEC') or die;
 jimport( 'joomla.application.component.view' );
 jimport('joomla.filesystem.folder');
 
-class FsssViewKbcat extends JViewLegacy
+class LimeticketsViewKbcat extends JViewLegacy
 {
 
 	function display($tpl = null)

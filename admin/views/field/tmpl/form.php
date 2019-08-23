@@ -348,7 +348,7 @@ function plugin_changed()
 						</div>
 						<div class="controls">
 							<?php echo $this->pllist; ?>
-							<span class="help-inline"><a href='http://freestyle-joomla.com/help/other/knowledge-base?kbartid=91' target="_blank">Creating Plugins Help</a></span>
+							<span class="help-inline"><a href='http://limesurvey.org/help/other/knowledge-base?kbartid=91' target="_blank">Creating Plugins Help</a></span>
 						</div>
 					</div>
 

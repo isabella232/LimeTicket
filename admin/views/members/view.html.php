@@ -9,7 +9,7 @@ defined('_JEXEC') or die;
 
 jimport( 'joomla.application.component.view' );
 
-class FsssViewMembers extends JViewLegacy
+class LimeticketsViewMembers extends JViewLegacy
 {
   
     function display($tpl = null)

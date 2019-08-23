@@ -12,7 +12,7 @@ require_once (JPATH_SITE.DS.'administrator'.DS.'components'.DS.'com_limeticket'.
 jimport('joomla.html.pane');
 
 
-class FsssViewFsss extends JViewLegacy
+class LimeticketsViewLimetickets extends JViewLegacy
 {
  
     function display($tpl = null)
@@ -29,7 +29,7 @@ class FsssViewFsss extends JViewLegacy
 			JFactory::getApplication()->redirect(JRoute::_('index.php?option=com_limeticket&view=limetickets', false));
 		}
 
-		JToolBarHelper::title( JText::_( 'FREESTYLE_SUPPORT_PORTAL' ), 'limeticket.png' );
+		JToolBarHelper::title( JText::_( 'LIMETICKET_PORTAL' ), 'limeticket.png' );
 		LIMETICKETAdminHelper::DoSubToolbar();
 	
 		parent::display($tpl);

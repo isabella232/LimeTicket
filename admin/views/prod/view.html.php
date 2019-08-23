@@ -13,7 +13,7 @@ jimport('joomla.filesystem.folder');
 
 
 
-class FsssViewProd extends JViewLegacy
+class LimeticketsViewProd extends JViewLegacy
 {
 
 	function display($tpl = null)

@@ -9,13 +9,13 @@ defined('_JEXEC') or die;
 
 jimport( 'joomla.application.component.view' );
 
-class FsssViewTimezone extends JViewLegacy
+class LimeticketsViewTimezone extends JViewLegacy
 {
 	
 	function display($tpl = null)
 	{
 		$mainframe = JFactory::getApplication();
-		JToolBarHelper::title( JText::_("FREESTYLE_SUPPORT_PORTAL") .' - '. JText::_("Timezone Helper") , 'limeticket_settings' );
+		JToolBarHelper::title( JText::_("LIMETICKET_PORTAL") .' - '. JText::_("Timezone Helper") , 'limeticket_settings' );
 		JToolBarHelper::apply();
 		JToolBarHelper::save();
 		JToolBarHelper::cancel('cancellist');

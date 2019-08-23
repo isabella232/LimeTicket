@@ -11,7 +11,7 @@ jimport('joomla.application.component.model');
 
 
 
-class FsssModelTicketpri extends JModelLegacy
+class LimeticketsModelTicketpri extends JModelLegacy
 {
 
 	function __construct()

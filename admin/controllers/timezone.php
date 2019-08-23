@@ -7,7 +7,7 @@
 **/
 defined('_JEXEC') or die;
 
-class FsssControllertimezone extends FsssController
+class LimeticketsControllertimezone extends LimeticketsController
 {
 
 	function __construct()

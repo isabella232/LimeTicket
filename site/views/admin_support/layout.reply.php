@@ -16,7 +16,7 @@ require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'fie
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'support_canned.php');
 
 
-class FssViewAdmin_Support_Reply extends FssViewAdmin_Support
+class LimeticketViewAdmin_Support_Reply extends LimeticketViewAdmin_Support
 {
 	function display($tpl = NULL)
 	{

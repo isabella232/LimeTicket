@@ -11,7 +11,7 @@ jimport('joomla.application.component.model');
 
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'fields.php');
 
-class FsssModelField extends JModelLegacy
+class LimeticketsModelField extends JModelLegacy
 {
 	
 	function __construct()

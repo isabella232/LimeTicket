@@ -10,7 +10,7 @@ defined('_JEXEC') or die;
 jimport( 'joomla.application.component.model' );
 
 
-class FsssModelTicketgroups extends JModelLegacy
+class LimeticketsModelTicketgroups extends JModelLegacy
 {
    
     var $_data;

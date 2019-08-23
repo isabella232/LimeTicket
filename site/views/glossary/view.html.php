@@ -11,7 +11,7 @@ defined('_JEXEC') or die;
 jimport( 'joomla.application.component.view');
 jimport('joomla.utilities.date');
 
-class FssViewGlossary extends LIMETICKETView
+class LimeticketViewGlossary extends LIMETICKETView
 {
     function display($tpl = null)
     {

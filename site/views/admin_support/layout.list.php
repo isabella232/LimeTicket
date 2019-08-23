@@ -16,7 +16,7 @@ require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'par
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'support_source.php');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'support_print.php');
 
-class FssViewAdmin_Support_List extends FssViewAdmin_Support
+class LimeticketViewAdmin_Support_List extends LimeticketViewAdmin_Support
 {
 	var $layoutpreview = 0;
 	var $show_key = true;

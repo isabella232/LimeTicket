@@ -11,7 +11,7 @@ jimport( 'joomla.application.component.view');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'support_ticket.php');
 
 
-class FsssViewAttachClean extends JViewLegacy
+class LimeticketsViewAttachClean extends JViewLegacy
 {
 	var $orpahned = array();
 

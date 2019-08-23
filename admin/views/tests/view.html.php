@@ -11,7 +11,7 @@ jimport( 'joomla.application.component.view' );
 jimport('joomla.utilities.date');
 require_once( JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'comments.php' );
 
-class FsssViewTests extends JViewLegacy
+class LimeticketsViewTests extends JViewLegacy
 {
  	function DoPublishComment($published)
 	{

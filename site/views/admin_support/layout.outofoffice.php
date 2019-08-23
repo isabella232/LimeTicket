@@ -9,7 +9,7 @@ defined('_JEXEC') or die;
 
 jimport( 'joomla.application.component.view');
 
-class FssViewAdmin_Support_OutOfOffice extends FssViewAdmin_Support
+class LimeticketViewAdmin_Support_OutOfOffice extends LimeticketViewAdmin_Support
 {
 	function display($tpl = NULL)
 	{
@@ -67,7 +67,7 @@ class FssViewAdmin_Support_OutOfOffice extends FssViewAdmin_Support
 		$file = JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'views'.DS.'admin_support'.DS.'layout.list.php';
 		require_once($file);
 		
-		$obj = new FssViewAdmin_Support_List();
+		$obj = new LimeticketViewAdmin_Support_List();
 		$obj->ticket_list = $this->tickets;
 		$obj->ticket_count = $this->tickets->ticket_count;
 		$obj->refresh = 2;

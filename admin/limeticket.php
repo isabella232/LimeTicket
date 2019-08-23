@@ -72,7 +72,7 @@ if (version_compare(phpversion(), '5.3.0', '<')) {
 	
 	// Create the controller
 	$controllername = $controller;
-	$classname    = 'FsssController'.$controller;
+	$classname    = 'LimeticketsController'.$controller;
 	$controller   = new $classname( );
 
 	LIMETICKET_Helper::StylesAndJS(array('force_jquery', 'tooltip', 'translate', 'admin_css'));

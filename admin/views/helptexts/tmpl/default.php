@@ -9,7 +9,7 @@ defined('_JEXEC') or die;
 ?>
 <div class="alert">
 	<h4 style='line-height: 1.6em;'>If there is any other places within the LimeTicket Support Portal component you would like to be able to place help text messages, please let us know the details and we
-	will get it added to the next update of the component. <a href='http://freestyle-joomla.com/help/support-tickets/open-support-ticket'>Contact us here</a>.</h4>
+	will get it added to the next update of the component. <a href='http://limesurvey.org/help/support-tickets/open-support-ticket'>Contact us here</a>.</h4>
 </div>
 
 <script language="javascript" type="text/javascript">

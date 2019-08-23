@@ -13,7 +13,7 @@ require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'sup
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'fields.php');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'support_print.php');
 
-class FssViewAdmin_Support_Multiprint extends FssViewAdmin_Support
+class LimeticketViewAdmin_Support_Multiprint extends LimeticketViewAdmin_Support
 {
 	function display($tpl = NULL)
 	{

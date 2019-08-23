@@ -5,7 +5,7 @@
 
   <!--
   List ticket reports with custom fields can now be automatically generated using the Support Portal Additions package at
-  http://freestyle-joomla.com/downloads/freestyle-support-portal-addons/freestyle-support-portal-addons-support-portal-additions-package
+  http://limesurvey.org/downloads/freestyle-support-portal-addons/freestyle-support-portal-addons-support-portal-additions-package
   
   
   
@@ -20,7 +20,7 @@
   
   The per user fields are the same, but within the "PER USER FIELDS BEGIN" / "PER USER FIELDS END" sections.
   
-  If you require assistance with this, please open a support ticket at freestyle-joomla.com
+  If you require assistance with this, please open a support ticket at limesurvey.org
   -->
   <sql>
     <![CDATA[

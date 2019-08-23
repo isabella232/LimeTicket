@@ -12,7 +12,7 @@ jimport( 'joomla.application.component.view');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'comments.php');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'admin_helper.php');
 
-class FssViewAdmin_Moderate extends LIMETICKETView
+class LimeticketViewAdmin_Moderate extends LIMETICKETView
 {
 	function display($tpl = NULL)
 	{

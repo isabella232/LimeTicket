@@ -11,7 +11,7 @@ jimport( 'joomla.application.component.view' );
 jimport('joomla.filesystem.file');
 require_once (JPATH_SITE.DS.'administrator'.DS.'components'.DS.'com_limeticket'.DS.'updatedb.php');
 
-class FsssViewBackup extends JViewLegacy
+class LimeticketsViewBackup extends JViewLegacy
 {
     function display($tpl = null)
     {

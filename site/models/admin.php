@@ -12,7 +12,7 @@ require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'pag
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'tickethelper.php');
 
 
-class FssModelAdmin extends JModelLegacy
+class LimeticketModelAdmin extends JModelLegacy
 {
 	function getTests()
 	{

@@ -13,7 +13,7 @@ require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'tra
 require_once (JPATH_SITE.DS.'libraries'.DS.'joomla'.DS.'form'.DS.'fields'.DS.'rules.php');
 require_once (JPATH_SITE.DS.'administrator'.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'permissions.php');
 
-class FsssViewPermission extends JViewLegacy
+class LimeticketsViewPermission extends JViewLegacy
 {
 	function display($tpl = null)
 	{

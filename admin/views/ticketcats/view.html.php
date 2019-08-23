@@ -11,7 +11,7 @@ defined('_JEXEC') or die;
 jimport( 'joomla.application.component.view' );
 
 
-class FsssViewTicketcats extends JViewLegacy
+class LimeticketsViewTicketcats extends JViewLegacy
 {
     
     function display($tpl = null)

@@ -14,7 +14,7 @@ jimport('joomla.utilities.date');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'comments.php');
 require_once(JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'glossary.php');
 
-class FssViewAnnounce extends LIMETICKETView
+class LimeticketViewAnnounce extends LIMETICKETView
 {
     function display($tpl = null)
     {

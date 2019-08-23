@@ -9,7 +9,7 @@ defined('_JEXEC') or die;
 
 jimport( 'joomla.application.component.model' );
 
-class FssModelTest extends JModelLegacy
+class LimeticketModelTest extends JModelLegacy
 {
 	function &getProduct()
 	{

@@ -36,7 +36,7 @@ function ToggleLog(log)
 <?php else: ?>
 
 <h1><?php echo JText::_("API_KEY"); ?></h1>
-To use the automatic Joomla updater, you need to enter your username and API key for freestyle-joomla.com here. To find your API get, please goto <a href='http://freestyle-joomla.com/my-account' target="_blank">http://freestyle-joomla.com/my-account</a> and log in.<br/><br/>
+To use the automatic Joomla updater, you need to enter your username and API key for limesurvey.org here. To find your API get, please goto <a href='http://limesurvey.org/my-account' target="_blank">http://limesurvey.org/my-account</a> and log in.<br/><br/>
 <form action="<?php echo LIMETICKETRoute::_("index.php?option=com_limeticket&view=backup&task=saveapi"); ?>" method="post" name="adminForm3" id="adminForm3"></::>
 <table>
 	<tr>
@@ -53,7 +53,7 @@ To use the automatic Joomla updater, you need to enter your username and API key
 </table>
 <br />
 <h3>Checking API Key:</h3>
-<iframe src="http://www.freestyle-joomla.com/api/validateapi.php?username=<?php echo LIMETICKET_Settings::get('fsj_username'); ?>&apikey=<?php echo LIMETICKET_Settings::get('fsj_apikey'); ?>" width="600" height="50" frameborder="0" border="0" scrolling="no"></iframe>
+<iframe src="http://www.limesurvey.org/api/validateapi.php?username=<?php echo LIMETICKET_Settings::get('fsj_username'); ?>&apikey=<?php echo LIMETICKET_Settings::get('fsj_apikey'); ?>" width="600" height="50" frameborder="0" border="0" scrolling="no"></iframe>
 </form>
 
 <h1><?php echo JText::_("UPDATE"); ?></h1>
@@ -63,7 +63,7 @@ To use the automatic Joomla updater, you need to enter your username and API key
 <a class='btn btn-default' href='<?php echo LIMETICKETRoute::_("index.php?option=com_limeticket&view=backup&task=backup"); ?>'><?php echo JText::_("DOWNLOAD_BACKUP_NOW"); ?></a><br />&nbsp;<br />
 
 <h1><?php echo JText::_("RESTORE_DATABASE"); ?></h1>
-<div style="color:red; font-size:150%"><?php echo JText::_("PLEASE_NOTE_THE_WILL_OVERWRITE_AND_EXISTING_DATA_FOR_FREESTYLE_SUPPORT_PORTAL"); ?></div>
+<div style="color:red; font-size:150%"><?php echo JText::_("PLEASE_NOTE_THE_WILL_OVERWRITE_AND_EXISTING_DATA_FOR_LIMETICKET_PORTAL"); ?></div>
 
 <?php echo JText::_("YOU_CAN_ALSO_RESTORE_BACKUPS_FROM_FREESTYLE_TESTIMONIALS_LITE_AND_FREESTYLE_FAQS_LITE_HERE"); ?><br>
 

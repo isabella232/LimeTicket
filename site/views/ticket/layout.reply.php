@@ -14,7 +14,7 @@ require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'sup
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'support_print.php');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'multicol.php');
 
-class FssViewTicket_Reply extends FssViewTicket
+class LimeticketViewTicket_Reply extends LimeticketViewTicket
 {
 	function display($tpl = NULL)
 	{

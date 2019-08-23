@@ -3,11 +3,11 @@
 	<name>LIMETICKET</name>
 	<!-- The following elements are optional and free of formatting constraints -->
 	<creationDate>2017 12 22</creationDate>
-	<authorEmail>support@freestyle-joomla.com</authorEmail>
-	<authorUrl>http://www.freestyle-joomla.com</authorUrl>
+	<authorEmail>support@limesurvey.org</authorEmail>
+	<authorUrl>http://www.limesurvey.org</authorUrl>
 	<author>Freestyle Joomla</author>
 	<copyright>Copyright Freestyle Joomla 2010</copyright>
-	<license>Please see http://www.freestyle-joomla.com/license for software license</license>
+	<license>Please see http://www.limesurvey.org/license for software license</license>
 	<version>2.6.5.2113</version>
 	<description>LimeTicket Support Portal</description>
  

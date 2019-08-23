@@ -13,7 +13,7 @@ require_once( JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'com
 
 
 
-class FsssViewTest extends JViewLegacy
+class LimeticketsViewTest extends JViewLegacy
 {
 
 	function display($tpl = null)
@@ -43,7 +43,7 @@ class FsssViewTest extends JViewLegacy
 			JToolBarHelper::cancel( 'cancel', 'Close' );
 		}
 		JToolBarHelper::divider();
-		JToolBarHelper::help("",false,"http://www.freestyle-joomla.com/comhelp/limeticket/" . JRequest::getVar('view'));
+		JToolBarHelper::help("",false,"http://www.limesurvey.org/comhelp/limeticket/" . JRequest::getVar('view'));
 
 		$this->test = $test;
 

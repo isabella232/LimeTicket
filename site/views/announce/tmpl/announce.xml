@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metadata>
 	<layout title="ANNOUNCEMENTS_SHOW_SINGLE">
-		<help url = "http://www.freestyle-joomla.com/comhelp/limeticket/frontend-view-announce-announce" />
+		<help url = "http://www.limesurvey.org/comhelp/limeticket/frontend-view-announce-announce" />
 		<message></message>
   </layout>
 	<state>

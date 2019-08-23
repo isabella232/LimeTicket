@@ -15,7 +15,7 @@ jimport('joomla.utilities.date');
 
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'task.php');
 
-class FssViewTicket extends LIMETICKETView
+class LimeticketViewTicket extends LIMETICKETView
 {
 	function display($tpl = NULL)
 	{		
@@ -43,7 +43,7 @@ class FssViewTicket extends LIMETICKETView
 		}
 		require_once($file);
 		
-		$class_name = "FssViewTicket_" . $layout;
+		$class_name = "LimeticketViewTicket_" . $layout;
 		
 		$layout_handler = new $class_name();
 		$layout_handler->setLayout($layout);

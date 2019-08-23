@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metadata>
   <layout title="SUPPORT_MAIN_ADMIN_PAGE">
-	  <help url = "http://www.freestyle-joomla.com/comhelp/limeticket/frontend-view-admin-default" />
+	  <help url = "http://www.limesurvey.org/comhelp/limeticket/frontend-view-admin-default" />
 	  <message></message>
   </layout>
   <state>

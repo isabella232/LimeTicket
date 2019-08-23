@@ -7,7 +7,7 @@
 **/
 defined('_JEXEC') or die;
 
-class FsssControllerGlossary extends FsssController
+class LimeticketsControllerGlossary extends LimeticketsController
 {
 
 	function __construct()

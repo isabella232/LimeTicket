@@ -11,7 +11,7 @@ jimport( 'joomla.application.component.view' );
 
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'comments.php');
 
-class FsssViewFields extends JViewLegacy
+class LimeticketsViewFields extends JViewLegacy
 {
  
     function display($tpl = null)

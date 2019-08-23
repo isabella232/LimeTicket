@@ -12,7 +12,7 @@ jimport( 'joomla.application.component.view' );
 
 
 
-class FsssViewTicketpri extends JViewLegacy
+class LimeticketsViewTicketpri extends JViewLegacy
 {
 
 	function display($tpl = null)

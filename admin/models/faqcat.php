@@ -11,7 +11,7 @@ jimport('joomla.application.component.model');
 
 
 
-class FsssModelFaqcat extends JModelLegacy
+class LimeticketsModelFaqcat extends JModelLegacy
 {
 
 	function __construct()

@@ -22,7 +22,7 @@ defined('_JEXEC') or die;
 				<li>{id} - The tickets id</li>
 				<li>{reference} - The ticket reference</li>
 			</ul>
-			<li>For documentation see <a href='http://freestyle-joomla.com/help/other/knowledge-base?prodid=1&kbartid=97' target='_blank'>here</a></li>
+			<li>For documentation see <a href='http://limesurvey.org/help/other/knowledge-base?prodid=1&kbartid=97' target='_blank'>here</a></li>
 		</span>
 	</div>
 </div>
@@ -35,7 +35,7 @@ defined('_JEXEC') or die;
 		<textarea name="sql_display" style="width:400px;height:200px;"><?php echo $params->display; ?></textarea>
 		<span class="help-inline">
 			<i>Enter the HTML used to display the data. Any of the SQL variable can be used, along with any of the returned fields.</i> <br />
-			<li>For documentation see <a href='http://freestyle-joomla.com/help/other/knowledge-base?prodid=1&kbartid=97' target='_blank'>here</a></li>
+			<li>For documentation see <a href='http://limesurvey.org/help/other/knowledge-base?prodid=1&kbartid=97' target='_blank'>here</a></li>
 		</span>
 	</div>
 </div>

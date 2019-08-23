@@ -85,7 +85,7 @@ class LIMETICKETAdminHelper
 				JToolBarHelper::preferences('com_limeticket');
 			}
 			JToolBarHelper::divider();
-			JToolBarHelper::help("",false,"http://www.freestyle-joomla.com/comhelp/limeticket/admin-view-" . JRequest::getVar('view'));
+			JToolBarHelper::help("",false,"http://www.limesurvey.org/comhelp/limeticket/admin-view-" . JRequest::getVar('view'));
 		}
 		
 		self::toolbarItem("COM_LIMETICKET_OVERVIEW","index.php?option=com_limeticket","limeticket");

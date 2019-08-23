@@ -12,7 +12,7 @@ require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'sup
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'captcha.php');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'support_canned.php');
 
-class FssViewTicket_Open extends FssViewTicket
+class LimeticketViewTicket_Open extends LimeticketViewTicket
 {
 	function display($tpl = NULL)
 	{

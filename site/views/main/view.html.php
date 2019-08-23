@@ -13,7 +13,7 @@ require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'models'.DS.'adm
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'comments.php');
 
 
-class FssViewMain extends LIMETICKETView
+class LimeticketViewMain extends LIMETICKETView
 {
     function display($tpl = null)
     {
@@ -217,7 +217,7 @@ class FssViewMain extends LIMETICKETView
 
 	function getSupportOverView()
 	{
-		$model = new FssModelAdmin();
+		$model = new LimeticketModelAdmin();
 		
 		$this->comments = new LIMETICKET_Comments(null,null);
 		$this->moderatecount = $this->comments->GetModerateTotal();

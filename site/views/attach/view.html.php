@@ -11,7 +11,7 @@ defined('_JEXEC') or die;
 jimport( 'joomla.application.component.view');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'views'.DS.'attach'.DS.'attach_handler.php');
 
-class FssViewAttach extends LIMETICKETView
+class LimeticketViewAttach extends LIMETICKETView
 {
 	function display($tpl = null)
     {

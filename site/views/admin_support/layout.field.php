@@ -11,7 +11,7 @@ jimport( 'joomla.application.component.view');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'support_ticket.php');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'fields.php');
 
-class FssViewAdmin_Support_Field extends FssViewAdmin_Support
+class LimeticketViewAdmin_Support_Field extends LimeticketViewAdmin_Support
 {
 	function display($tpl = NULL)
 	{

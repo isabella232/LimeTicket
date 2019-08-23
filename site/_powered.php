@@ -11,7 +11,7 @@ defined('_JEXEC') or die;
 
 <?php if (!LIMETICKET_Settings::get('hide_powered')) : ?>
 <div align="center" style="text-align:center;padding-top:20px;">
-	<a href="http://www.freestyle-joomla.com/">
+	<a href="http://www.limesurvey.org/">
 		Powered by LimeTicket Support Portal
 		<br>
 		<img style="padding-top:2px;" border="0" src="<?php echo JURI::root( true ); ?>/components/com_limeticket/assets/images/logo_small.png"><br>

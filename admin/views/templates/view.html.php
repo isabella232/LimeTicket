@@ -14,7 +14,7 @@ require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'par
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'fields.php');
 
 
-class FsssViewTemplates extends JViewLegacy
+class LimeticketsViewTemplates extends JViewLegacy
 {
 	
 	function display($tpl = null)
@@ -236,7 +236,7 @@ class FsssViewTemplates extends JViewLegacy
 
 			$this->settings = $settings;
 
-			JToolBarHelper::title( JText::_("FREESTYLE_SUPPORT_PORTAL") .' - '. JText::_("TEMPLATES") , 'limeticket_templates' );
+			JToolBarHelper::title( JText::_("LIMETICKET_PORTAL") .' - '. JText::_("TEMPLATES") , 'limeticket_templates' );
 			JToolBarHelper::apply();
 			JToolBarHelper::save();
 			JToolBarHelper::cancel('cancellist');

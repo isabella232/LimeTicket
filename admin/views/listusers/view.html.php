@@ -11,7 +11,7 @@ jimport( 'joomla.application.component.view' );
 jimport('joomla.utilities.date');
 
 
-class FsssViewlistusers extends JViewLegacy
+class LimeticketsViewlistusers extends JViewLegacy
 {
   
     function display($tpl = null)

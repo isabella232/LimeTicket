@@ -11,7 +11,7 @@ jimport( 'joomla.application.component.view' );
 jimport( 'joomla.filesystem.folder' );
 
 
-class FsssViewAnnounce extends JViewLegacy
+class LimeticketsViewAnnounce extends JViewLegacy
 {
 
 	function display($tpl = null)

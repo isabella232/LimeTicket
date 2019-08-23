@@ -11,7 +11,7 @@ jimport('joomla.filesystem.file');
 
 require_once( JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'helper.php' );
 
-class FsssControllerKbart extends FsssController
+class LimeticketsControllerKbart extends LimeticketsController
 {
 
 	function __construct()

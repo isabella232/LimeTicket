@@ -12,7 +12,7 @@ jimport('joomla.utilities.date');
 require_once( JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'support_actions.php' );
 require_once( JPATH_SITE.DS.'administrator'.DS.'components'.DS.'com_limeticket'.DS.'updatedb.php' );
 
-class FsssViewPlugins extends JViewLegacy
+class LimeticketsViewPlugins extends JViewLegacy
 {
     function display($tpl = null)
     {

@@ -14,7 +14,7 @@ require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'tic
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'admin_helper.php');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'parser.php');
 
-class FssViewAdmin_Report extends LIMETICKETView
+class LimeticketViewAdmin_Report extends LIMETICKETView
 {
 	var $paths = array();
 	

@@ -9,7 +9,7 @@ defined('_JEXEC') or die;
 
 jimport('joomla.application.component.controller');
 
-class FssController extends JControllerLegacy
+class LimeticketController extends JControllerLegacy
 {
 
 	function display($cachable = false, $urlparams = array())

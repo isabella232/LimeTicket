@@ -14,7 +14,7 @@ require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'tra
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'support_users.php');
 require_once (JPATH_SITE.DS.'administrator'.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'permissions.php');
 	
-class FsssViewFuser extends JViewLegacy
+class LimeticketsViewFuser extends JViewLegacy
 {
 
 	function display($tpl = null)

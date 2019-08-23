@@ -10,7 +10,7 @@ defined('_JEXEC') or die;
 jimport('joomla.application.component.model');
 jimport('joomla.application.component.modeladmin');
 
-class FsssModelPermission extends JModelAdmin
+class LimeticketsModelPermission extends JModelAdmin
 {
 	public function getForm($form = "content", $data = array(), $loadData = true)
 	{

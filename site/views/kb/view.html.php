@@ -16,7 +16,7 @@ require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'ema
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'comments.php');
 
 
-class FssViewKb extends LIMETICKETView
+class LimeticketViewKb extends LIMETICKETView
 {
 	var $toc = "";
 	var $pages_header = "";

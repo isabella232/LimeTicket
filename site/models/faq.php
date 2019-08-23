@@ -10,7 +10,7 @@ defined('_JEXEC') or die;
 jimport( 'joomla.application.component.model' );
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'pagination.php');
 
-class FssModelFaq extends JModelLegacy
+class LimeticketModelFaq extends JModelLegacy
 {
 	var $_total = null;
 

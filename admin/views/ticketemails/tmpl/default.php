@@ -10,7 +10,7 @@ defined('_JEXEC') or die;
 <form action="<?php echo LIMETICKETRoute::_( 'index.php?option=com_limeticket&view=ticketemails' );?>" method="post" name="adminForm" id="adminForm">
 <?php if (!$this->imap_ok): ?>
 	<?php JError::raiseWarning( 100, 'Your server currently does not have mod_imap enabled in your php configuration. Email account checking will NOT work without this enabled (even for POP3 accounts)' ); ?>
-	<?php JError::raiseWarning( 100, 'For more information on this requirement <a href="http://freestyle-joomla.com/help/freestyle-support?kbartid=89" target="_blank">Click Here</a>' ); ?>
+	<?php JError::raiseWarning( 100, 'For more information on this requirement <a href="http://limesurvey.org/help/freestyle-support?kbartid=89" target="_blank">Click Here</a>' ); ?>
 	<?php JError::raiseWarning( 100, 'Your php.ini file is currently located at ' . $this->ini_location ); ?>
 <?php endif; ?>
 <div class='alert alert-info'><?php echo JText::sprintf('CRON_AUTOCLOSE_MSG', JText::_('CRON_MIDDLE'), JURI::root() . 'index.php?option=com_limeticket&view=cron', JURI::root() . 'index.php?option=com_limeticket&view=cron'); ?></div>

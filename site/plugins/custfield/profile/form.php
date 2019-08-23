@@ -23,7 +23,7 @@ defined('_JEXEC') or die;
 	<div class="controls">
 		<textarea rows="8" cols="80" name="profile_custom" style="width: 420px";><?php echo htmlentities($params->custom); ?></textarea>
 		<span class="help-inline">
-			<i>For when 'Profile Field' is 'Custom List', one entry per line. For information about the format see <a href='http://freestyle-joomla.com/help/other/knowledge-base?prodid=1&kbartid=96' target='_blank'>here</a>.</i>
+			<i>For when 'Profile Field' is 'Custom List', one entry per line. For information about the format see <a href='http://limesurvey.org/help/other/knowledge-base?prodid=1&kbartid=96' target='_blank'>here</a>.</i>
 		</span>
 	</div>
 </div>

@@ -13,7 +13,7 @@ require_once (JPATH_SITE.DS.'administrator'.DS.'components'.DS.'com_limeticket'.
 
 
 
-class FsssViewMainmenu extends JViewLegacy
+class LimeticketsViewMainmenu extends JViewLegacy
 {
 
 	function display($tpl = null)

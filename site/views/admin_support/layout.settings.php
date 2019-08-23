@@ -12,7 +12,7 @@ require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'tas
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'support_helper.php');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'support_users.php');
 
-class FssViewAdmin_Support_Settings extends FssViewAdmin_Support
+class LimeticketViewAdmin_Support_Settings extends LimeticketViewAdmin_Support
 {
 	function display($tpl = NULL)
 	{

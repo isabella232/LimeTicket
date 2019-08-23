@@ -10,7 +10,7 @@ defined('_JEXEC') or die;
 jimport('joomla.application.component.model');
 jimport('joomla.application.component.modeladmin');
 
-class FsssModelFuser extends JModelAdmin
+class LimeticketsModelFuser extends JModelAdmin
 {
 
 	var $_users = null;

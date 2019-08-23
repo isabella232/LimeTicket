@@ -10,7 +10,7 @@ defined('_JEXEC') or die;
 
 jimport( 'joomla.application.component.view');
 
-class FssViewCsstest extends LIMETICKETView
+class LimeticketViewCsstest extends LIMETICKETView
 {
 	function display($tpl = null)
 	{

@@ -11,7 +11,7 @@ jimport( 'joomla.application.component.view' );
 require_once (JPATH_SITE.DS.'administrator'.DS.'components'.DS.'com_limeticket'.DS.'settings.php');
 
 
-class FsssViewTranslate extends JViewLegacy
+class LimeticketsViewTranslate extends JViewLegacy
 {
 	function display($tpl = null)
 	{

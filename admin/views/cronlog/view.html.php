@@ -9,7 +9,7 @@ defined('_JEXEC') or die;
 
 jimport( 'joomla.application.component.view');
 
-class FsssViewCronLog extends JViewLegacy
+class LimeticketsViewCronLog extends JViewLegacy
 {
 	function display($tpl = null)
 	{

@@ -15,7 +15,7 @@
 
 	<administration>
 		<!-- Administration Menu Section -->
-		<menu img="components/com_limeticket/assets/menu_icon_s.png">FREESTYLE_SUPPORT_PORTAL</menu>
+		<menu img="components/com_limeticket/assets/menu_icon_s.png">LIMETICKET_PORTAL</menu>
 		<submenu>
       <menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=limetickets">COM_LIMETICKET_OVERVIEW</menu>
       <menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=settings">COM_LIMETICKET_SETTINGS</menu>
@@ -123,7 +123,7 @@
   </languages>
 
   <updateservers>
-    <server type="collection" name="LimeTicket Support Portal Updates">http://www.freestyle-joomla.com/update/list.php</server>
+    <server type="collection" name="LimeTicket Support Portal Updates">http://www.limesurvey.org/update/list.php</server>
   </updateservers>
   
 </extension>

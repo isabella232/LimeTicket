@@ -14,7 +14,7 @@ require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'tra
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'admin_helper.php');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'support_tickets.php');
 
-class FssViewAdmin_Support extends LIMETICKETView
+class LimeticketViewAdmin_Support extends LIMETICKETView
 {
 	function display($tpl = NULL)
 	{
@@ -35,7 +35,7 @@ class FssViewAdmin_Support extends LIMETICKETView
 		}
 		require_once($file);
 		
-		$class_name = "FssViewAdmin_Support_" . $layout;
+		$class_name = "LimeticketViewAdmin_Support_" . $layout;
 		
 		$layout_handler = new $class_name();
 		$layout_handler->setLayout($layout);

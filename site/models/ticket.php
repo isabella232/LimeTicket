@@ -13,7 +13,7 @@ require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'tic
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'translate.php');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'support_source.php');
 
-class FssModelTicket extends JModelLegacy
+class LimeticketModelTicket extends JModelLegacy
 {
 	var $multiuser = 0;
 

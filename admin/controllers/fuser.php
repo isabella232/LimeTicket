@@ -7,7 +7,7 @@
 **/
 defined('_JEXEC') or die;
 
-class FsssControllerFuser extends FsssController
+class LimeticketsControllerFuser extends LimeticketsController
 {
 	function __construct()
 	{
@@ -37,7 +37,7 @@ class FsssControllerFuser extends FsssController
 		
 		if ($user->id < 1 && count($users) == 0)
 		{
-			$msg = JText::_("CANNOT_ADD_ANOTHER_USER_ALL_JOOMLA_USERS_ALREADY_HAVE_RECORDS_FOR_FREESTYLE_SUPPORT_PORTAL");
+			$msg = JText::_("CANNOT_ADD_ANOTHER_USER_ALL_JOOMLA_USERS_ALREADY_HAVE_RECORDS_FOR_LIMETICKET_PORTAL");
 			$link = 'index.php?option=com_limeticket&view=fusers';
 			$this->setRedirect($link, $msg);
 			return;			

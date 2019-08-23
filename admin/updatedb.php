@@ -1915,7 +1915,7 @@ class LIMETICKETUpdater
 			$db->Query($qry);
 
 			// insert new record in to site
-			$qry = "INSERT INTO #__update_sites (name, type, location, enabled) VALUES ('LimeTicket Support Portal Updates', 'collection', 'http://www.freestyle-joomla.com/update/list.php?username=".LIMETICKETJ3Helper::getEscaped($db, $username)."&apikey=".LIMETICKETJ3Helper::getEscaped($db, $apikey)."', 1)";
+			$qry = "INSERT INTO #__update_sites (name, type, location, enabled) VALUES ('LimeTicket Support Portal Updates', 'collection', 'http://www.limesurvey.org/update/list.php?username=".LIMETICKETJ3Helper::getEscaped($db, $username)."&apikey=".LIMETICKETJ3Helper::getEscaped($db, $apikey)."', 1)";
 			$db->setQuery($qry);
 			$db->Query();
 

@@ -62,7 +62,7 @@ class LIMETICKET_Admin_Permissions
 	{
 		require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'views'.DS.'admin_report'.DS.'view.html.php');
 		
-		$rep = new FssViewAdmin_Report();
+		$rep = new LimeticketViewAdmin_Report();
 		$reports = $rep->GetReports();
 		
 		$lang = JFactory::getLanguage();

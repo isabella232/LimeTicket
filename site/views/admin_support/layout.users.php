@@ -10,7 +10,7 @@ defined('_JEXEC') or die;
 jimport( 'joomla.application.component.view');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'pagination.php');
 
-class FssViewAdmin_Support_Users extends FssViewAdmin_Support
+class LimeticketViewAdmin_Support_Users extends LimeticketViewAdmin_Support
 {
 	function display($tpl = NULL)
 	{

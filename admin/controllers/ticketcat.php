@@ -7,7 +7,7 @@
 **/
 defined('_JEXEC') or die;
 
-class FsssControllerTicketcat extends FsssController
+class LimeticketsControllerTicketcat extends LimeticketsController
 {
 
 	function __construct()

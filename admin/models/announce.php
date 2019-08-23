@@ -9,7 +9,7 @@ defined('_JEXEC') or die;
 
 jimport('joomla.application.component.model');
 
-class FsssModelAnnounce extends JModelLegacy
+class LimeticketsModelAnnounce extends JModelLegacy
 {
 
 	function __construct()

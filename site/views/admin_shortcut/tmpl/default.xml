@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metadata>
   <layout title="ADMIN_SHORTCUTS">
-    <help url = "http://www.freestyle-joomla.com/comhelp/limeticket/frontend-view-faq-faq" />
+    <help url = "http://www.limesurvey.org/comhelp/limeticket/frontend-view-faq-faq" />
     <message></message>
   </layout>
   <state>

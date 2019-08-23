@@ -10,7 +10,7 @@ defined('_JEXEC') or die;
 
 jimport( 'joomla.application.component.view');
 
-class FssViewAdmin_Shortcut extends LIMETICKETView
+class LimeticketViewAdmin_Shortcut extends LIMETICKETView
 {
 
 	function display($tpl = null)

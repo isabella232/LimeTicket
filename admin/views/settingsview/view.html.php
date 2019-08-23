@@ -13,7 +13,7 @@ require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'par
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'fields.php');
 
 
-class FsssViewSettingsView extends JViewLegacy
+class LimeticketsViewSettingsView extends JViewLegacy
 {
 	
 	function display($tpl = null)
@@ -79,7 +79,7 @@ class FsssViewSettingsView extends JViewLegacy
 
 			$this->settings = $settings;
 
-			JToolBarHelper::title( JText::_("FREESTYLE_SUPPORT_PORTAL") .' - '. JText::_("VIEW_SETTINGS") , 'limeticket_viewsettings' );
+			JToolBarHelper::title( JText::_("LIMETICKET_PORTAL") .' - '. JText::_("VIEW_SETTINGS") , 'limeticket_viewsettings' );
 			JToolBarHelper::apply();
 			JToolBarHelper::save();
 			JToolBarHelper::cancel('cancellist');

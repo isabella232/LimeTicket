@@ -13,7 +13,7 @@ require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'models'.DS.'adm
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'comments.php');
 
 
-class FssViewLogin extends LIMETICKETView
+class LimeticketViewLogin extends LIMETICKETView
 {
 	protected $data;
 

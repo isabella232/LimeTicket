@@ -8,7 +8,7 @@
 defined('_JEXEC') or die;
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'support_actions.php');
 
-class FsssControllerlistuser extends JControllerLegacy
+class LimeticketsControllerlistuser extends JControllerLegacy
 {
 	var $messages = array();
 

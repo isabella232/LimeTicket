@@ -9,7 +9,7 @@ defined('_JEXEC') or die;
 
 jimport( 'joomla.application.component.view');
 
-class FssViewAdmin_Support_ListHandlers extends FssViewAdmin_Support
+class LimeticketViewAdmin_Support_ListHandlers extends LimeticketViewAdmin_Support
 {
 	function display($tpl = NULL)
 	{

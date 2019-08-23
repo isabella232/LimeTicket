@@ -11,7 +11,7 @@ jimport( 'joomla.application.component.view' );
 
 
 
-class FsssViewEmail extends JViewLegacy
+class LimeticketsViewEmail extends JViewLegacy
 {
 
 	function display($tpl = null)

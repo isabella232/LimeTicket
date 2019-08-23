@@ -9,6 +9,6 @@ defined('_JEXEC') or die;
 
 $help = $_GET['help'];
 
-$url = "http://www.freestyle-joomla.com/comhelp/limeticket/" . $help;
+$url = "http://www.limesurvey.org/comhelp/limeticket/" . $help;
 
 header("Location: $url");

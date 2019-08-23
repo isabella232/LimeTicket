@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metadata>
 	<layout title="KB_SHOW_SINGLE_ARTICLE">
-		<help url = "http://www.freestyle-joomla.com/comhelp/limeticket/frontend-view-kb-article" />
+		<help url = "http://www.limesurvey.org/comhelp/limeticket/frontend-view-kb-article" />
 		<message></message>
   </layout>
 	<state>

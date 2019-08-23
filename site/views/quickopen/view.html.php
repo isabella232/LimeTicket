@@ -22,7 +22,7 @@ require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'sup
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'third'.DS.'simpleimage.php');
 require_once (JPATH_SITE.DS.'components'.DS.'com_limeticket'.DS.'helper'.DS.'multicol.php');
 
-class FssViewQuickOpen extends LIMETICKETView
+class LimeticketViewQuickOpen extends LIMETICKETView
 {
 	function display($tpl = null)
 	{

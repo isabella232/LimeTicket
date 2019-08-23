@@ -60,7 +60,7 @@ if (version_compare(phpversion(), '5.3.0', '<')) {
 	LIMETICKET_Helper::CheckTicketLink();
 
 	// Create the controller
-	$classname    = 'FssController'.$controller;
+	$classname    = 'LimeticketController'.$controller;
 	$controller   = new $classname( );
 
 	$view = LIMETICKET_Input::getCmd('view');
