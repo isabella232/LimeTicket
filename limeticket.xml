@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0" method="upgrade">
+	<name>COM_LIMETICKET</name>
+	<!-- The following elements are optional and free of formatting constraints -->
+	<creationDate>2019 12 22</creationDate>
+	<authorEmail>support@limesurvey.org</authorEmail>
+	<authorUrl>https://www.limesurvey.org</authorUrl>
+	<author>LimeSurvey GmbH</author>
+	<copyright>Copyright LimeSurvey GmbH 2019 / Freestyle Joomla 2013</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<version>2.6.5.2114</version>
+	<description>LimeTicket Support Portal</description>
+
+	<scriptfile>install.php</scriptfile>
+
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu img="components/com_limeticket/assets/menu_icon_s.png">FREESTYLE_SUPPORT_PORTAL</menu>
+		<submenu>
+      <menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=limetickets">COM_LIMETICKET_OVERVIEW</menu>
+      <menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=settings">COM_LIMETICKET_SETTINGS</menu>
+      <menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=templates">COM_LIMETICKET_TEMPLATES</menu>
+      <menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=settingsview">COM_LIMETICKET_VIEW_SETTINGS</menu>
+      <menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=mainmenus">COM_LIMETICKET_MAIN_MENU</menu>
+
+			<menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=faqs">COM_LIMETICKET_FAQS</menu>
+			<menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=faqcats">COM_LIMETICKET_FAQ_CATEGORIES</menu>
+			<menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=prods">COM_LIMETICKET_PRODUCTS</menu>
+
+      <menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=tests">COM_LIMETICKET_MODERATION</menu>
+
+      <menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=kbcats">COM_LIMETICKET_KB_CATS</menu>
+			<menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=kbarts">COM_LIMETICKET_KB_ARTICLES</menu>
+
+			<menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=fields">COM_LIMETICKET_CUSTOM_FIELDS</menu>
+
+			<menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=glossarys">COM_LIMETICKET_GLOSSARY</menu>
+			<menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=ticketcats">COM_LIMETICKET_TICKET_CATEGORIES</menu>
+			<menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=ticketdepts">COM_LIMETICKET_TICKET_DEPARTMENTS</menu>
+			<menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=ticketpris">COM_LIMETICKET_TICKET_PRIORITIES</menu>
+			<menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=ticketgroups">COM_LIMETICKET_TICKET_GROUPS</menu>
+			<menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=ticketemails">COM_LIMETICKET_TICKET_EMAIL_ACCOUNTS</menu>
+      <menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=ticketstatuss">COM_LIMETICKET_TICKET_STATUS</menu>
+
+      <menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=fusers">COM_LIMETICKET_USERS</menu>
+
+			<menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=announces">COM_LIMETICKET_ANNOUNCEMENTS</menu>
+			<menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=emails">COM_LIMETICKET_EMAIL_TEMPLATES</menu>
+			<menu img="components/com_limeticket/assets/images/blank_16.png" link="option=com_limeticket&amp;view=backup">COM_LIMETICKET_ADMIN</menu>
+		</submenu>
+
+		<!-- Administration Main File Copy Section -->
+		<files folder="admin">
+			<filename>database_limeticket.json</filename>
+			<filename>data_limeticket.xml</filename>
+
+      <filename>access.xml</filename>
+      <filename>config.xml</filename>
+      <filename>controller.php</filename>
+			<filename>element.php</filename>
+			<filename>limeticket.php</filename>
+			<filename>index.html</filename>
+			<filename>settings.php</filename>
+			<filename>updatedb.php</filename>
+			<filename>adminhelper.php</filename>
+
+			<folder>extensions</folder>
+			<folder>assets</folder>
+			<folder>controllers</folder>
+			<folder>elements</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+      <folder>views</folder>
+      <folder>help</folder>
+      <folder>html</folder>
+      <folder>helper</folder>
+    </files>
+
+		<languages folder="admin_lang">
+			<language tag="en-GB">en-GB/en-GB.com_limeticket.ini</language>
+      <language tag="en-GB">en-GB/en-GB.com_limeticket.sys.ini</language>
+      
+      <!-- Search plugin language files -->
+      <language tag="en-GB">en-GB/en-GB.plg_search_limeticket_announce.ini</language>
+      <language tag="en-GB">en-GB/en-GB.plg_search_limeticket_faqs.ini</language>
+      <language tag="en-GB">en-GB/en-GB.plg_search_limeticket_glossary.ini</language>
+      <language tag="en-GB">en-GB/en-GB.plg_search_limeticket_kb.ini</language>
+      
+      
+      <!-- Finder plugin language files -->
+      <language tag="en-GB">en-GB/en-GB.plg_finder_limeticket_announce.ini</language>
+      <language tag="en-GB">en-GB/en-GB.plg_finder_limeticket_announce.sys.ini</language>
+      <language tag="en-GB">en-GB/en-GB.plg_finder_limeticket_faq.ini</language>
+      <language tag="en-GB">en-GB/en-GB.plg_finder_limeticket_faq.sys.ini</language>
+      <language tag="en-GB">en-GB/en-GB.plg_finder_limeticket_glossary.ini</language>
+      <language tag="en-GB">en-GB/en-GB.plg_finder_limeticket_glossary.sys.ini</language>
+      <language tag="en-GB">en-GB/en-GB.plg_finder_limeticket_kb.ini</language>
+      <language tag="en-GB">en-GB/en-GB.plg_finder_limeticket_kb.sys.ini</language>
+    </languages>
+	</administration>
+
+  <!-- Site Main File Copy Section -->
+  <files folder="site">
+    <filename>controller.php</filename>
+    <filename>limeticket.php</filename>
+    <filename>index.html</filename>
+    <filename>_powered.php</filename>
+    <!--<filename>router.php</filename>-->
+
+    <folder>cron</folder>
+    <folder>views</folder>
+    <folder>models</folder>
+    <folder>assets</folder>
+    <folder>files</folder>
+    <folder>helper</folder>
+    <folder>tmpl</folder>
+    <folder>plugins</folder>
+    <folder>language</folder>
+  </files>
+
+  <languages folder="site_lang">
+    <language tag="en-GB">en-GB/en-GB.com_limeticket.ini</language>
+  </languages>
+
+  <updateservers>
+    <server type="collection" name="LimeTicket Support Portal Updates">http://www.freestyle-joomla.com/update/list.php</server>
+  </updateservers>
+  
+</extension>

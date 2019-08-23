@@ -1,0 +1,28 @@
+<?php
+/**
+ * @package LimeTicket Support System
+ * @author LimeSurvey GmbH / Freestyle Joomla
+ * @copyright (C) 2019 LimeSurvey GmbH  /  Freestyle Joomla
+ * @license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+**/
+defined('_JEXEC') or die;
+
+class FsssControllertimezone extends FsssController
+{
+
+	function __construct()
+	{
+		parent::__construct();
+
+	}
+
+	function cancellist()
+	{
+		$link = 'index.php?option=com_limeticket&view=limetickets';
+		$this->setRedirect($link, $msg);
+	}
+
+}
+
+
+
